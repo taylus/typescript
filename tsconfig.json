@@ -1,0 +1,13 @@
+//reference: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "out"
+    },
+    "compileOnSave": true,
+    "include": [
+        "src/**/*"
+    ]
+}
