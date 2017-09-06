@@ -1,0 +1,13 @@
+//reference: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "sourceMap": true,
+        "outFile": "out/app.js"
+    },
+    "files": [
+        "src/person.ts",
+        "src/greeter.ts"
+    ]
+}
