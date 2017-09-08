@@ -4,7 +4,8 @@
         "target": "es5",
         "module": "system",
         "sourceMap": true,
-        "outFile": "out/app.js"
+        "outFile": "out/app.js",
+        "noEmitOnError": true
     },
     "files": [
         "src/person.ts",
