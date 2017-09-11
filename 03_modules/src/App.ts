@@ -4,5 +4,5 @@ import { Cat } from "./Cat";
 var dog = new Dog();
 var cat = new Cat();
 
-console.log(dog.speak());
-console.log(cat.speak());
+alert(dog.speak());
+alert(cat.speak());

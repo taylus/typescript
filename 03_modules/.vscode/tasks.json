@@ -13,6 +13,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "taskName": "Bundle modules into a single JS file using Browserify",
+            "type": "shell",
+            "command": "browserify ${workspaceRoot}/out/App.js -o ${workspaceRoot}/out/Bundle.js",
+            "problemMatcher": []
         }
     ]
 }
