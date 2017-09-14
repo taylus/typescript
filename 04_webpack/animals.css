@@ -1,0 +1,16 @@
+.dog {
+    background-image: url('animal_spritesheet.png');
+    display: inline-block;
+    background-position: -512px -64px;
+    height: 64px;
+    width: 64px;
+  }
+  
+  .cat {
+    background-image: url('animal_spritesheet.png');
+    display: inline-block;
+    background-position: -512px -320px;
+    height: 64px;
+    width: 64px;
+  }
+  
